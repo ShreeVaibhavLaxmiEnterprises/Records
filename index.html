@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Vaibhav Laxmi Enterprises | Shuttering Contractor Mumbai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #ffb400; /* Construction Yellow */
+            --secondary-color: #1a1a1a;
+        }
+        .bg-primary { background-color: var(--primary-color); }
+        .text-primary { color: var(--primary-color); }
+        
+        /* Floating Buttons */
+        .float-btn {
+            position: fixed;
+            bottom: 20px;
+            z-index: 1000;
+            border-radius: 50px;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .float-whatsapp { left: 20px; background-color: #25d366; color: white; }
+        .float-call { right: 20px; background-color: #007bff; color: white; }
+        
+        .gallery-img:hover { transform: scale(1.05); transition: 0.3s; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <span class="text-primary">Shree Vaibhav Laxmi</span> Enterprises
+            </div>
+            <nav class="hidden md:flex space-x-6 font-semibold">
+                <a href="#home" class="hover:text-primary">Home</a>
+                <a href="#services" class="hover:text-primary">Services</a>
+                <a href="#gallery" class="hover:text-primary">Projects</a>
+                <a href="#contact" class="hover:text-primary">Contact</a>
+            </nav>
+            <a href="tel:9151543906" class="bg-primary px-5 py-2 rounded text-black font-bold hidden md:block">Call Now</a>
+        </div>
+    </header>
+
+    <section id="home" class="relative h-[500px] flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19480c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); z-index: -1;"></div>
+        <div class="relative z-10 px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Top Shuttering & Construction <br>Contractor in Mumbai</h1>
+            <p class="text-xl mb-8">Professional. Reliable. On-Time Delivery.</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#contact" class="bg-primary text-black px-8 py-3 rounded-full font-bold text-lg">Get a Quote</a>
+                <a href="https://wa.me/9151543906" target="_blank" class="bg-green-500 text-white px-8 py-3 rounded-full font-bold text-lg">WhatsApp Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Specialized Services</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg border-b-4 border-primary">
+                <i class="fas fa-tools text-4xl text-primary mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Shuttering Services</h3>
+                <p class="text-gray-600">Expert shuttering and centering work for high-rise buildings and residential projects.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-b-4 border-primary">
+                <i class="fas fa-building text-4xl text-primary mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Construction Work</h3>
+                <p class="text-gray-600">Complete civil construction from foundation to finishing with quality materials.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-b-4 border-primary">
+                <i class="fas fa-hard-hat text-4xl text-primary mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Slab Casting</h3>
+                <p class="text-gray-600">Precision slab casting and reinforcement work ensuring structural strength.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Real Site Photos</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=80" alt="Construction Site" class="gallery-img rounded-lg shadow-md cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1517089534701-349a983e97ee?auto=format&fit=crop&w=400&q=80" alt="Shuttering Work" class="gallery-img rounded-lg shadow-md cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1589939705384-5185138a04b9?auto=format&fit=crop&w=400&q=80" alt="Building Work" class="gallery-img rounded-lg shadow-md cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1590644365607-1c5a519a7a37?auto=format&fit=crop&w=400&q=80" alt="Civil Work" class="gallery-img rounded-lg shadow-md cursor-pointer">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 container mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="bg-white p-8 rounded-lg shadow-xl">
+                <h3 class="text-2xl font-bold mb-6">Send Online Enquiry</h3>
+                <form id="whatsappForm">
+                    <div class="mb-4">
+                        <label class="block mb-1 font-semibold">Your Name</label>
+                        <input type="text" id="name" required class="w-full border p-2 rounded focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1 font-semibold">Service Needed</label>
+                        <select id="service" class="w-full border p-2 rounded">
+                            <option>Shuttering Work</option>
+                            <option>New Construction</option>
+                            <option>Renovation</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1 font-semibold">Message/Location</label>
+                        <textarea id="message" rows="3" class="w-full border p-2 rounded"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-green-600 text-white font-bold py-3 rounded hover:bg-green-700">
+                        Send to WhatsApp <i class="fab fa-whatsapp ml-2"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Our Office in Ghatkopar</h3>
+                <p class="mb-2"><strong>Address:</strong> Ghatkopar East/West, Mumbai, Maharashtra</p>
+                <p class="mb-4"><strong>Phone:</strong> +91 9151543906</p>
+                
+                <div class="rounded-lg overflow-hidden h-64 shadow-lg">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.812630560868!2d72.9063546!3d19.0829141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c63198030239%3A0x69c299c82d49c104!2sGhatkopar%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="mt-4">
+                    <a href="https://www.google.com/business/" target="_blank" class="text-blue-600 font-bold underline">View Google Business Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10 text-center">
+        <p class="mb-2">© 2026 Shree Vaibhav Laxmi Enterprises. All Rights Reserved.</p>
+        <p class="text-gray-400">Domain: www.shreevaibhavlaxmienterprises.com</p>
+    </footer>
+
+    <a href="https://wa.me/9151543906" class="float-btn float-whatsapp">
+        <i class="fab fa-whatsapp text-2xl mr-2"></i> WhatsApp
+    </a>
+    <a href="tel:9151543906" class="float-btn float-call">
+        <i class="fas fa-phone-alt text-xl mr-2"></i> Call Now
+    </a>
+
+    <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const service = document.getElementById('service').value;
+            const msg = document.getElementById('message').value;
+            
+            const whatsappNumber = "919151543906";
+            const text = `Hello Shree Vaibhav Laxmi Enterprises,%0A%0A*New Enquiry*%0A*Name:* ${name}%0A*Service:* ${service}%0A*Message:* ${msg}`;
+            
+            window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
+        });
+    </script>
+
+</body>
+</html>
